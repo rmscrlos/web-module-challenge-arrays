@@ -163,18 +163,18 @@ DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem.
 
 hint - you can use the .includes method to help you solve this */
 
-function filterByWord(arr, flavor){
+    function filterByWord(arr, flavor){
 
-    let filteredArray = [];
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i].includes(flavor)){
-            filteredArray.push(arr[i]);
+        let filteredArray = [];
+        for(let i = 0; i < arr.length; i++){
+            if(arr[i].includes(flavor)){
+                filteredArray.push(arr[i]);
+            }
         }
+        console.log(filteredArray);
     }
-    console.log(filteredArray);
-}
 
-filterByWord(originalFlavors, "Chocolate");
+    filterByWord(originalFlavors, "Chocolate");
 
 /* 🧁🍦🍨 STRETCH 🍨🍦🍫*/ 
 
